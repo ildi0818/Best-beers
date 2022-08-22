@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.main-container {
+    background-color: #ffeedf;
+    margin: 20px;
+    box-shadow: 1px 1px 15px grey;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 5px;
+    color: #145434;
+    font-weight: bolder;
+    border-bottom: 2px solid #145434;
+}
+
+.container {
+    padding: 50px;
+}
+
+.container h1 {
+    border-bottom: 1px solid white;
+    padding-bottom: 40px;
+    margin-bottom: 15px;
+}
+
+section {
+    width: 300px;
+    height: 200px;
+    background-color: #145434;
+    margin: 40px;
+    color: white;
+    padding: 20px;
+    position: relative;
+}
+
+button {
+    display: flex;
+    background-color: #ffeedf;
+    color: #145434;
+    border: 1px solid #145434;
+    padding: 5px;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+}
+
+.first-row,
+.second-row {
+    display: flex;
+    justify-content: center;
+}
+
+.number {
+    background-color: #ffeedf;
+    color: #145434;
+    border: 2px solid #145434;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
